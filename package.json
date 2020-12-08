@@ -1,6 +1,6 @@
 {
   "name": "gtajesgenga-splunk-logging-hec",
-  "version": "0.10.2",
+  "version": "0.10.3",
   "description": "Splunk HTTP Event Collector logging interface reimplementation using needle",
   "homepage": "http://dev.splunk.com",
   "main": "index.js",
