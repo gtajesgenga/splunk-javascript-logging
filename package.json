@@ -1,7 +1,7 @@
 {
-  "name": "splunk-logging",
-  "version": "0.10.1",
-  "description": "Splunk HTTP Event Collector logging interface",
+  "name": "gtajesgenga-splunk-logging-hec",
+  "version": "0.10.2",
+  "description": "Splunk HTTP Event Collector logging interface reimplementation using needle",
   "homepage": "http://dev.splunk.com",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/splunk/splunk-javascript-logging.git"
+    "url": "https://github.com/gtajesgenga/splunk-javascript-logging.git"
   },
   "keywords": [
     "splunk",
@@ -23,16 +23,15 @@
     "stream"
   ],
   "author": {
-    "name": "Splunk",
-    "email": "devinfo@splunk.com",
-    "url": "http://dev.splunk.com"
+    "name": "Gustavo Tajes Genga",
+    "email": "gtajesgenga@alumnos.exa.unicen.edu.ar"
   },
   "license": "Apache-2.0",
   "engine": {
     "node": ">=4.0.0"
   },
   "dependencies": {
-    "request": "^2.88.0"
+    "needle": "^2.5.2"
   },
   "devDependencies": {
     "istanbul": "^0.4.5",
